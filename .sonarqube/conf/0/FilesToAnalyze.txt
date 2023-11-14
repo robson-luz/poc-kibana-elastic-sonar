@@ -1,0 +1,11 @@
+﻿C:\Users\robson.luz\source\repos\POC-elastic-kibana\POC-elastic-kibana.API\Controllers\WeatherForecastController.cs
+C:\Users\robson.luz\source\repos\POC-elastic-kibana\POC-elastic-kibana.API\Program.cs
+C:\Users\robson.luz\source\repos\POC-elastic-kibana\POC-elastic-kibana.API\WeatherForecast.cs
+C:\Users\robson.luz\source\repos\POC-elastic-kibana\POC-elastic-kibana.API\obj\Debug\net6.0\POC-elastic-kibana.API.GlobalUsings.g.cs
+C:\Users\robson.luz\source\repos\POC-elastic-kibana\POC-elastic-kibana.API\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+C:\Users\robson.luz\source\repos\POC-elastic-kibana\POC-elastic-kibana.API\obj\Debug\net6.0\POC-elastic-kibana.API.AssemblyInfo.cs
+C:\Users\robson.luz\source\repos\POC-elastic-kibana\POC-elastic-kibana.API\obj\Debug\net6.0\POC-elastic-kibana.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\robson.luz\source\repos\POC-elastic-kibana\POC-elastic-kibana.API\appsettings.Development.json
+C:\Users\robson.luz\source\repos\POC-elastic-kibana\POC-elastic-kibana.API\appsettings.json
+C:\Users\robson.luz\source\repos\POC-elastic-kibana\POC-elastic-kibana.API\docker-compose.yml
+C:\Users\robson.luz\source\repos\POC-elastic-kibana\POC-elastic-kibana.API\Properties\launchSettings.json

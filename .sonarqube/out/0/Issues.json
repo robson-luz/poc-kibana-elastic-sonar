@@ -1,0 +1,213 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador do Microsoft (R) Visual C#",
+        "version": "4.7.0.0",
+        "fileVersion": "4.7.0-3.23366.1 (dad7898a)",
+        "semanticVersion": "4.7.0",
+        "language": "pt-BR"
+      },
+      "results": [
+        {
+          "ruleId": "CS0219",
+          "level": "warning",
+          "message": "A variável \"teste\" é atribuída, mas seu valor nunca é usado",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/robson.luz/source/repos/POC-elastic-kibana/POC-elastic-kibana.API/Controllers/WeatherForecastController.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 17,
+                  "endLine": 45,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0219",
+          "level": "warning",
+          "message": "A variável \"teste\" é atribuída, mas seu valor nunca é usado",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/robson.luz/source/repos/POC-elastic-kibana/POC-elastic-kibana.API/Controllers/WeatherForecastController.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 17,
+                  "endLine": 50,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0219",
+          "level": "warning",
+          "message": "A variável \"teste\" é atribuída, mas seu valor nunca é usado",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/robson.luz/source/repos/POC-elastic-kibana/POC-elastic-kibana.API/Controllers/WeatherForecastController.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 17,
+                  "endLine": 55,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'teste'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/robson.luz/source/repos/POC-elastic-kibana/POC-elastic-kibana.API/Controllers/WeatherForecastController.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 17,
+                  "endLine": 45,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'teste'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/robson.luz/source/repos/POC-elastic-kibana/POC-elastic-kibana.API/Controllers/WeatherForecastController.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 17,
+                  "endLine": 55,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'teste'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/robson.luz/source/repos/POC-elastic-kibana/POC-elastic-kibana.API/Controllers/WeatherForecastController.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 17,
+                  "endLine": 50,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/robson.luz/source/repos/POC-elastic-kibana/POC-elastic-kibana.API/Controllers/WeatherForecastController.cs",
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 19,
+                  "endLine": 40,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS0219": {
+          "id": "CS0219",
+          "shortDescription": "A variável é atribuída, mas seu valor nunca é usado",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0219)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S112": {
+          "id": "S112",
+          "shortDescription": "General exceptions should never be thrown",
+          "fullDescription": "Throwing such general exceptions as Exception, SystemException, ApplicationException, IndexOutOfRangeException, NullReferenceException, OutOfMemoryException and ExecutionEngineException prevents calling methods from handling true, system-generated exceptions differently than application-generated errors.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-112",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
